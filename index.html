@@ -7,93 +7,53 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <img src="bioPic.jpg" width="50px" style="margin-right: 20px; border-radius: 50%;" alt="bioPic">
-            <!-- Added Bio Pic in the Nav Bar -->
-          <a class="navbar-brand" href="#">Drianne Espiritu</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Bio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Exercises
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://github.com/DCEspiritu/PacMen">PacMen Exercise</a></li>
-                  <li><a class="dropdown-item" href="https://github.com/DCEspiritu/Eyes">Eye Exercise</a></li>
-                  <li><a class="dropdown-item" href="https://github.com/DCEspiritu/Real-Time-Bus-Tracker">Real Time Bus Tracker Exercise</a></li>
-                  <!-- <li><hr class="dropdown-divider"></li> -->
-                  <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                </ul>
-              </li>
-              <!-- <li class="nav-item"> -->
-                <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
-              <!-- </li> -->
-            </ul>
-            <!-- <form class="d-flex" role="search"> -->
-              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-              <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-            <!-- </form> -->
-          </div>
-        </div>
-      </nav>
-
-
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Pacman thumbnail.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 style="color: white; font-size: xx-large">Pacmen Exercise</h5>
-              <!-- <p>Some representative placeholder content for the first slide.</p> -->
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="Eyes Thumbnail.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 style="font-size: xx-large;">Eye Exercise</h5>
-              <!-- <p>Some representative placeholder content for the second slide.</p> -->
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="Bus Thumbnail 2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 style="color: white; font-size: xx-large">Real Time Bus Tracker Exercise</h5>
-              <!-- <p>Some representative placeholder content for the third slide.</p> -->
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-
-    <!-- <img src="Pacman thumbnail.jpg" class="img-thumbnail" alt="..." width="200px" height="200px"> -->
-    <!-- Random background image for test -->
-    <!-- <img src="Eyes Thumbnail.jpg" class="img-thumbnail" alt="..." width="200px" height="200px"> -->
-    <!-- Random background image for test --> 
-    <!-- <img src="Bus Thumbnail 2.jpg" class="img-thumbnail" alt="..." width="200px" height="200px"> -->
-    <!-- Random background image for test -->
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+      <img src="bioPic.jpg" width="50px" style="margin-right: 20px; border-radius: 50%;" alt="bio pic">
+      <a class="navbar-brand" href="#">Drianne Espiritu</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading1">Bio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="margin-right: 100px;">Navigation</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#scrollspyHeading2">Pacmen Exercise</a></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading3">Eyes Exercise</a></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading4">Real Time Bus Tracker Exercise</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading5">Video Introduction</a></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading6">Contact</a></li>
+          </ul>  
+        </li>
+      </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+      
+      <h4 id="scrollspyHeading1">Bio</h4>
+      <p>My name is Drianne Espiritu! I'm currently taking the MIT xPRO Professional Certificate in Coding: Fullstack Development with MERN course. This is my second time experiencing and learning about Web Development. The first time was customizing my Xanga page. I love the idea of being able to create a web page from scratch with almost endless posibilities.</p>
+      <p style="margin-bottom: 50px;">I'm based in LA County CA. Lived here all my life. I love extreme sports, eating new foods and experiencing new things with friends. PADI certified so I'm trying to find that next wreck to explore.</p>
+      
+      <a href="https://github.com/DCEspiritu/PacMen" style="text-decoration: none;" target="_blank"><h4 id="scrollspyHeading2" style="margin-bottom: 15px;">Pacmen Exercise</h4></a>
+      <a href="https://github.com/DCEspiritu/PacMen" target="_blank"><img src="Pacman thumbnail.jpg" width="500px" style="margin-bottom: 20px;" alt=""></a>
+      <p style="margin-bottom: 50px;">This project demonstrates how to create an image with the click of a button and manipulate them across the browser window, each image having their own velocity.</p>
+      
+      <a href="https://github.com/DCEspiritu/Eyes" style="text-decoration: none;" target="_blank"><h4 id="scrollspyHeading3" style="margin-bottom: 15px;">Eyes Exercise</h4></a>
+      <a href="https://github.com/DCEspiritu/Eyes" target="_blank""><img src="Eyes Thumbnail.jpg" width="500px" style="margin-bottom: 20px;" alt=""></a>
+      <p style="margin-bottom: 50px;">This project demonstrates how to use HTML, CSS and Javascript together by creating a web page where two eyes follow your mouse curser.</p>
+      
+      <a href="https://github.com/DCEspiritu/Real-Time-Bus-Tracker" style="text-decoration: none;" target="_blank"><h4 id="scrollspyHeading4" style="margin-bottom: 15px;">Real Time Bus Tracker Exercise</h4></a>
+      <a href="https://github.com/DCEspiritu/Real-Time-Bus-Tracker" target="_blank"><img src="Bus Thumbnail 2.jpg" width="500px" style="margin-bottom: 20px;" alt=""></a>
+      <p style="margin-bottom: 50px;">This project demonstrates how to pull in data asynchronously and display map elements with a mapping library. Once executed, map pins will jump from one stop to the next from MIT to Harvard.</p>
+   
+      <h4 id="scrollspyHeading5">Video Introduction</h4>
+      <p style="margin-bottom: 50px;">Input Video Here</p>
+      
+      <h4 id="scrollspyHeading6" style="margin-bottom: 15px;">Contact Information</h4>
+      <p><a href="https://www.linkedin.com/in/drianne-espiritu-a1681327a/">Linkedin</p></a>
+      <p>Email: espiritudrianne@gmail.com</p>
+      <p><a href="https://github.com/DCEspiritu" target="_blank">GitHub</p></a>
+    </div>
+                
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
