@@ -40,3 +40,13 @@ p{
 #Github{
     color: lightblue;
 }
+
+#navbar-example2{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+div{
+    margin-top: 120px;
+}
